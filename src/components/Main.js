@@ -40,7 +40,7 @@ function Main({ onEditProfile, onAddPlace, onEditAvatar, cards, onCardClick, onD
                 <ul className="elements__container">
                     {cards.map((card) => 
                             <Card
-                                key={card.id}
+                                key={card._id}
                                 card={card}
                                 src={card.link}
                                 title={card.name}
